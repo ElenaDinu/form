@@ -1,29 +1,14 @@
-<html style="font-size: larger;font-size: 25;backface-visibility: 100%;backface-visibility: initial;border size: 100px;background-color: #7c7c981f;opacity: 1;background-repeat: repeat;background-size: 100%;"><head>
-
-
-  <title>Chestionar satisfactie clienti</title>
-  
-
-</head>
-<body>
-<form action="save" >
-
-First name:<br>
-<input type="text" name="first_name">
-<br>
-Last name:<br>
-<input type="text" name="last_name">
-<br>
-City name:<br>
-<input type="text" name="city_name">
-<br>
-Email Id:<br>
-<input type="email" name="email">
-<br>
-<br>
-<input type="Submit" value="Submit">
-
-
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Insert Data</title> 
+</head> 
+<body> 
+   
+    <form action="./InsertData" method="post"> 
+        <h3>Chestionar satisfactie client</h3>  
+       
+        
 
     <div class="card a">
         <div class="card-body a">
@@ -195,8 +180,8 @@ Email Id:<br>
             <textarea class="form-control" name="RASPUNS_FREE_TEXT" aria-label="With textarea" style="margin: 0px; width: 529px; height: 71px;"></textarea>
         </div>
     </div>
-
-
-</form>
-</body>
-</html>
+<br>
+        <input type="submit"/> 
+    </form> 
+</body> 
+</html> 
